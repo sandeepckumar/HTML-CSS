@@ -38,6 +38,7 @@ a {
 .form-wrap .form-group label {
   display: block;
   color: #666;
+  font-weight: bold;
 }
 
 .form-wrap .form-group {
