@@ -28,6 +28,9 @@ p {
 }
 
 /* Utlities */
+.clr {
+  clear: both;
+}
 .container {
   margin: auto;
   max-width: 1200px;
@@ -74,8 +77,8 @@ p {
 }
 
 .bg-primary {
-  background: #333;
-  color: #f7c08a;
+  background: #f7c08a;
+  color: #333;
 }
 
 /* Navbar */
@@ -161,4 +164,24 @@ p {
 
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* Features */
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Main footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: white;
+  padding: 10px;
 }
