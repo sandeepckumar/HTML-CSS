@@ -252,3 +252,14 @@ p {
   border: solid 1px #f4f4f4;
   border-radius: 50%;
 }
+
+/* Contact styling */
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
